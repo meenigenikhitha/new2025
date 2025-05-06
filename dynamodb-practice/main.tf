@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "name" {
-    bucket = "asdfghjklxdrgbbn"
+    bucket = "asdfghjklxdrgbbndfg"
   
 }
 resource "aws_dynamodb_table" "name" {
