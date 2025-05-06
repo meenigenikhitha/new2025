@@ -17,7 +17,7 @@ resource "aws_s3_bucket_versioning" "name" {
   bucket = aws_s3_bucket.nikki.id
 
   versioning_configuration {
-    status = "Enabled"
+    status = "Suspended"
   }
   
 }
